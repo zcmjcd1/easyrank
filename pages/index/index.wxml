@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<create>
+  <view class="subtitle">
+    <view class="demo__icon zan-badge">
+      <text>创建一个新的排行榜</text>
+    </view>
+    <space/>
+  </view>
+  <view class="item-wrapper"/> 
+  <!-- <view class="create" bindtap="bindViewTap">
+    <text>创建</text>
+     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> 
+  </view> -->
+</create>
+<!-- <other>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</other> -->

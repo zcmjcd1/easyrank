@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/create/create",
+    "pages/detail/detail",
+    "pages/detail/rank/rank"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/list_green.png",
+        "iconPath": "images/list_grey.png",
+        "pagePath": "pages/index/index",
+        "text": "新建排行榜"
+      },
+      {
+        "selectedIconPath": "images/mine_green.png",
+        "iconPath": "images/mine_grey.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}
